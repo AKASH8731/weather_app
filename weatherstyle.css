@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url(./image/dayandnightimage/bodyimg.jpg);
+    background-size: cover;
+    background-position: 10%;
+}
+
+.card {
+    background: rgba(21, 21, 21, 0.3);
+    color: rgb(255, 252, 252);
+    box-shadow: 0px 0px 10px 5px rgb(192, 187, 187);
+    border-radius: 20px;
+    width: 100%;
+    max-width: 400px;
+    margin: 1.5em;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 2em;
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    height: 3em;
+    width: 3.5em;
+    border: none;
+    background-color: rgba(255, 247, 247, 0.5);
+    color: black;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255);
+    font-family: 'Lora', serif;
+    font-size: 20px;
+    width: 100%;
+
+}
+
+.temp {
+    margin: 0;
+    font-size: 25px
+}
+
+.degreeicon {
+    font-size: 40px;
+}
+
+.humidity,
+.wind {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.heading h1 {
+    font-family: 'Carter One', cursive;
+    color: rgb(255, 255, 255);
+    background-color: rgb(137, 125, 125, 0.5);
+    padding: 0px 20px;
+    border-radius: 10px;
+    margin: auto auto;
+}
+
+.condition {
+    font-size: 25px;
+    font-style: bold;
+}
+
+.temp_icon img {
+    /* background-color: rgba(232, 228, 228, 0.5);
+    border-radius: 50%; */
+    margin-bottom: -9px;
+    height: 120px;
+
+}
+
+@media only screen and (max-width:420px) {
+    .card {
+        width: 100%;
+        max-width: 250px;
+    }
+}
