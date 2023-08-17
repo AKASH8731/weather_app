@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Myweather</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./weatherstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alkatra&family=Lora&family=Quicksand:wght@500&family=Roboto+Condensed&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="heading">
+        <h1>My Weather App</h1>
+    </div>
+
+
+    <div class="card" id="container1">
+        <form action="#">
+            <div class="search">
+                <input type="text" class="search-bar" placeholder="Enter City Name" value="">
+                <button class="search-button"><i
+                        class="fa-sharp fa-solid fa-magnifying-glass fa-beat-fade fa-lg"></i></button>
+        </form>
+    </div>
+    <div class="weather">
+        <h2>
+            <span>Weather in </span>
+            <span class="city">Lakhimpur</span>
+        </h2>
+    </div>
+    <div class="temp_icon">
+        <h3>
+            <span class="temp"></span>
+        </h3>
+        <img src="./image/images/clouds.png" alt="" class="icon" style="margin-top: -10px;">
+    </div>
+    <div class="condition" style="margin-top: 10px;">
+        <h2>cloud</h2>
+    </div>
+    <div class="humidity">
+        <h3>
+            <span style="font-size: 20px;">Humidity :</span>
+            <span class="humiditypercent"> </span>
+        </h3>
+    </div>
+    <div class="wind">
+        <h3>
+            <span style="font-size: 20px;">Wind speed : </span>
+            <span class="windspeed"></span>
+        </h3>
+    </div>
+    </div>
+    <script src="./script/forecast.js"></script>
+</body>
+
+</html>
